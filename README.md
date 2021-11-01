@@ -1,3 +1,6 @@
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/stefan-zobel/minifuture.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stefan-zobel/minifuture/alerts/)
+[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/stefan-zobel/minifuture.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stefan-zobel/minifuture/context:java)
+
 # minifuture
 
 A stripped to the bones CompletableFuture backport for Java >= 6 and Android (API level < 24).
