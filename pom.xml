@@ -5,7 +5,7 @@
     <artifactId>streamsupport-minifuture</artifactId>
     <version>1.7.4</version>
     <name>net.sourceforge.streamsupport:streamsupport-minifuture</name>
-    <description>A stripped to the bones CompletableFuture backport for Java &ge; 6 and Android (API level &lt; 24)</description>
+    <description>A stripped to the bones CompletableFuture backport for Java 6+ and Android (API level 14+)</description>
     <url>https://github.com/stefan-zobel/minifuture/</url>
     <licenses>
         <license>
