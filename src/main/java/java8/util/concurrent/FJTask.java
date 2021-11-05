@@ -640,7 +640,7 @@ abstract class FJTask<V> implements Future<V>, Serializable {
      * <p>This method is designed to be invoked by <em>other</em>
      * tasks. To terminate the current task, you can just return or
      * throw an unchecked exception from its computation method, or
-     * invoke {@link #completeExceptionally(Throwable)}.
+     * invoke {@code #completeExceptionally(Throwable)}.
      *
      * @param mayInterruptIfRunning this value has no effect in the
      * default implementation because interrupts are not used to
@@ -779,18 +779,6 @@ abstract class FJTask<V> implements Future<V>, Serializable {
      */
     final void quietlyJoin() {
         doJoin();
-    }
-
-    /**
-     * Returns {@code true} if the current thread is a {@link
-     * FJWorkerThread} executing as a ForkJoinPool computation.
-     *
-     * @return {@code true} if the current thread is a {@link
-     * FJWorkerThread} executing as a ForkJoinPool computation,
-     * or {@code false} otherwise
-     */
-    static boolean inForkJoinPool() {
-        return Thread.currentThread() instanceof FJWorkerThread;
     }
 
     // Extension methods

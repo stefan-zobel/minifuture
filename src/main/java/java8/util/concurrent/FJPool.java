@@ -2418,11 +2418,7 @@ final class FJPool extends AbstractExecutorService {
     }
 
     /**
-     * Runs the given possibly blocking task.  When {@linkplain
-     * FJTask#inForkJoinPool() running in a ForkJoinPool}, this
-     * method possibly arranges for a spare thread to be activated if
-     * necessary to ensure sufficient parallelism while the current
-     * thread is blocked in {@link ManagedBlocker#block blocker.block()}.
+     * Runs the given possibly blocking task.
      *
      * <p>This method repeatedly calls {@code blocker.isReleasable()} and
      * {@code blocker.block()} until either method returns {@code true}.
