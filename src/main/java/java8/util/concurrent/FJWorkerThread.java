@@ -53,7 +53,7 @@ class FJWorkerThread extends Thread {
      */
 
     // A placeholder name until a useful name can be set in registerWorker
-    private static final String NAME_PLACEHOLDER = "aForkJoinWorkerThread";
+    private static final String NAME_PLACEHOLDER = "aFJWorkerThread";
 
     final FJPool pool;                // the pool this thread works in
     final FJPool.WorkQueue workQueue; // work-stealing mechanics
@@ -157,7 +157,7 @@ class FJWorkerThread extends Thread {
                     ThreadGroup group = Thread.currentThread().getThreadGroup();
                     for (ThreadGroup p; (p = group.getParent()) != null; )
                         group = p;
-                    return new ThreadGroup(group, "InnocuousForkJoinWorkerThreadGroup");
+                    return new ThreadGroup(group, "InnocuousFJWorkerThreadGroup");
                 }});
 
         /** An AccessControlContext supporting no privileges */

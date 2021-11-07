@@ -1995,7 +1995,7 @@ final class FJPool extends AbstractExecutorService {
         n |= n >>> 1; n |= n >>> 2; n |= n >>> 4; n |= n >>> 8; n |= n >>> 16;
         n = (n + 1) << 1;
 
-        this.workerNamePrefix = "ForkJoinPool.commonPool-worker-";
+        this.workerNamePrefix = "FJPool.commonPool-worker-";
         this.workQueues = new WorkQueue[n];
         this.factory = fac;
         this.ueh = handler;
