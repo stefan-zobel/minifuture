@@ -1,5 +1,7 @@
 [![Total alerts](https://img.shields.io/lgtm/alerts/g/stefan-zobel/minifuture.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stefan-zobel/minifuture/alerts/)
 [![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/stefan-zobel/minifuture.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stefan-zobel/minifuture/context:java)
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.sourceforge.streamsupport/streamsupport-minifuture/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.sourceforge.streamsupport/streamsupport-minifuture)
+[![javadoc.io](https://javadoc.io/badge2/net.sourceforge.streamsupport/streamsupport-minifuture/javadoc.svg)](https://javadoc.io/doc/net.sourceforge.streamsupport/streamsupport-minifuture)
 
 # minifuture
 
@@ -17,6 +19,26 @@ This is a minimized (105 KiB) version of the [streamsupport-cfuture](https://jav
 * java8.util.function.Supplier
 
 The CompletableFuture API is the one from Java 12, i.e. it contains the Java 9 ([JEP 266](https://openjdk.java.net/jeps/266)) enhancements and the exception handling methods introduced in Java 12 ([JDK-8211010](https://bugs.openjdk.java.net/browse/JDK-8211010)). The project can be compiled with Java 6 and should be compatible with any OpenJDK based JVM and Android versions starting from API level 14. 
+
+
+### build.gradle:
+
+```gradle
+dependencies {
+    implementation 'net.sourceforge.streamsupport:streamsupport-minifuture:1.7.4'
+}
+```
+
+
+### Maven:
+
+```xml
+<dependency>
+    <groupId>net.sourceforge.streamsupport</groupId>
+    <artifactId>streamsupport-minifuture</artifactId>
+    <version>1.7.4</version>
+</dependency>
+```
 
 
 ## LICENSE
