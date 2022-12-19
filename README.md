@@ -1,5 +1,4 @@
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/stefan-zobel/minifuture.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stefan-zobel/minifuture/alerts/)
-[![Language grade: Java](https://img.shields.io/lgtm/grade/java/g/stefan-zobel/minifuture.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/stefan-zobel/minifuture/context:java)
+[![CodeQL](https://github.com/stefan-zobel/minifuture/actions/workflows/codeql.yml/badge.svg)](https://github.com/stefan-zobel/minifuture/actions/workflows/codeql.yml)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/net.sourceforge.streamsupport/streamsupport-minifuture/badge.svg)](https://maven-badges.herokuapp.com/maven-central/net.sourceforge.streamsupport/streamsupport-minifuture)
 [![javadoc.io](https://javadoc.io/badge2/net.sourceforge.streamsupport/streamsupport-minifuture/javadoc.svg)](https://javadoc.io/doc/net.sourceforge.streamsupport/streamsupport-minifuture)
 
